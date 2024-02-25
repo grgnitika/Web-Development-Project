@@ -2,6 +2,8 @@ package com.sanrio_store.sanrio_store.mapper;
 
 import com.sanrio_store.sanrio_store.dto.response.BookingResponse;
 
+import java.util.List;
+
 @Mapper
 public interface BookingMapper {
     @Select("select ib.id, ce.full_name, ce.email, c.category_name, i.item_name, ib.quantity , ib.total_price, ib.status  from item_booking ib \n" +

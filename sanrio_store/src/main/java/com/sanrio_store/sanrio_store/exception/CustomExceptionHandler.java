@@ -1,5 +1,6 @@
 package com.sanrio_store.sanrio_store.exception;
 
+import com.sanrio_store.sanrio_store.helper.ApiResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.HttpRequestMethodNotSupportedException;
