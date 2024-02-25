@@ -1,9 +1,13 @@
 package com.sanrio_store.sanrio_store.entity;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
+@Table
+@Entity
+@NoArgsConstructor
 public class CustomerEntity {
 
     @Id

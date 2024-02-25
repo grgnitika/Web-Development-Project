@@ -1,7 +1,14 @@
 package com.sanrio_store.sanrio_store.entity;
 
 import jakarta.persistence.*;
+import lombok.*;
 
+@Entity(name = "item_booking")
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@Builder
 public class BookingEntity {
 
     @Id
