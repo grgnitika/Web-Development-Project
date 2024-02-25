@@ -10,6 +10,7 @@ import com.sanrio_store.sanrio_store.mapper.ProductMapper;
 import com.sanrio_store.sanrio_store.repo.CategoryRepo;
 import com.sanrio_store.sanrio_store.repo.ProductRepo;
 import com.sanrio_store.sanrio_store.service.ProductService;
+import com.sanrio_store.sanrio_store.utils.ImageToBase64;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
